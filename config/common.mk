@@ -171,6 +171,10 @@ PRODUCT_PACKAGES += \
     SimpleDeviceConfig \
     SimpleSettingsConfig
 
+# Expressive design
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    is_expressive_design_enabled=true
+
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
     bash \
